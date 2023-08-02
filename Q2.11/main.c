@@ -6,7 +6,7 @@ For example: 1, 2 and 16 are power of 2. 0, 10 and 30 are not power of 2.*/
 void isPower(int x);
 int main()
 {
-    isPower(350,7);
+    isPower(16);
     return 0;
 }
 void isPower(int x){

@@ -13,6 +13,7 @@ void isPower(int x){
     int reminder;
 while(x!=1){
     reminder=x%2;
+    if(reminder!=0)break;
     x=x/2;
 }
  if(reminder==0)printf("is Power");

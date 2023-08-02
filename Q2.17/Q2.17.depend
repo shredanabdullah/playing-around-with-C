@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1691001769 source:c:\users\tobi\desktop\mt-c\assignment2\q2.17\main.c
+	<stdio.h>
+	<stdlib.h>
+

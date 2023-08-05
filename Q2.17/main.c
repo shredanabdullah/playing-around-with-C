@@ -17,7 +17,7 @@ int main()
     return 0;
 }
 void findMaxXor(int l,int r){
-    int count,max;
+    int count,max=0;
     max=l^r;
 for(int i=l;i<=r;i++){
     for(int j=r;j>=l;j--){

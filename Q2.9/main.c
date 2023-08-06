@@ -12,8 +12,8 @@ int main()
     return 0;
 }
 void swap(int num1,int num2){
-int temp=num1;
+int tmp=num1;
 num1=num2;
-num2=temp;
+num2=tmp;
 printf("the first number becomes: %d and the second number becomes: %d",num1,num2);
 }

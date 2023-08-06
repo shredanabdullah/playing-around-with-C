@@ -11,7 +11,7 @@ int main()
 {
     int num1,num2;
     char op;
-    printf("enter operation(+,-,*,/): ");
+    printf("enter the operation(+,-,*,/): ");
     scanf("%c",&op);
     printf("enter first operand: ");
     scanf("%d",&num1);

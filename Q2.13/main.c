@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 /*(13) In this challenge write a function to add two floating numbers.
 Determine the integer floor of the sum.
 The floor is the truncated float value, anything after the decimal point is dropped.
@@ -18,6 +17,8 @@ int main()
     return 0;
 }
 int add(float num1,float num2){
-float result=num1+num2;
-return floor(result);
+int result=num1+num2;
+if(result>=0)return result;
+else if(result<0)return result-1;
 }
+

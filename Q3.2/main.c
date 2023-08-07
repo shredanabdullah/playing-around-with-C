@@ -19,10 +19,11 @@ int main(void)
 int isDistinct(char* str,int size){
     int isDistinct=0;
     for(int i=0;i<size;i++){
-        if(str[i]!=str[i+1]){
+      for(int h=0;h<size;h++){
+        if(str[i]!=str[h]){
             isDistinct++;
         }
-    }
+    }}
     if(isDistinct==size){
             return 1;
     }

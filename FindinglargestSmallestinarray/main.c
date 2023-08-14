@@ -17,6 +17,6 @@ int main()
         }
     }
 
-    printf("the largest element= %d,and the smallest element= %d\n",max,min);
+    printf("The largest element= %d,and the smallest element= %d\n",max,min);
     return 0;
 }
